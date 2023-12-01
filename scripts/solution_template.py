@@ -1,7 +1,7 @@
-from functools import cache
-from collections import defaultdict, Counter
-from itertools import combinations, permutations, product
 from bisect import bisect_left, bisect_right
+from collections import Counter, defaultdict
+from functools import cache
+from itertools import combinations, permutations, product
 from pathlib import Path
 
 repo_dir = Path(__file__).parent.parent.absolute()
