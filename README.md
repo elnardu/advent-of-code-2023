@@ -2,6 +2,8 @@
 
 Keeping it simple and just using Python this year. Will actually try finish.
 
+Also, don't use this code as an example for any purpose. I am trying for speed this year, so code is very bad.
+
 ## Usage
 
 - Copy `cookies-template.json` to `cookies.json`
