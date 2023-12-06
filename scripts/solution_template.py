@@ -1,5 +1,5 @@
 from bisect import bisect_left, bisect_right
-from collections import Counter, defaultdict
+from collections import Counter, defaultdict, deque
 from functools import cache
 from itertools import combinations, permutations, product
 from pathlib import Path
