@@ -1,8 +1,9 @@
 from bisect import bisect_left, bisect_right
 from collections import Counter, defaultdict, deque
 from functools import cache
-from itertools import combinations, permutations, product
+from itertools import combinations, permutations, product, repeat, chain
 from pathlib import Path
+from pprint import pprint
 
 repo_dir = Path(__file__).parent.parent.absolute()
 day_id = "$day_id"
